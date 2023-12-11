@@ -1,4 +1,8 @@
+import AutoComplete from "../components/AutoComplete"
+import StockList from "../components/StockList"
+
 export const StockOverviewPage = ()=>{
     return (<>
-    <h1>Overwiewstockdetailpage</h1></>)
+    <AutoComplete/>
+    <StockList/></>)
 }

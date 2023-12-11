@@ -50,7 +50,8 @@ const AutoComplete =()=>{
 
   
     return(<>
-     <div className='w-50 p-2 rounded mx-auto'>
+     <div className='w-50 p-2 rounded mx-auto inputbox'>
+        <h1 className='w-50 p-2 rounded mx-auto'>Stock Market</h1>
         <div className='form-floating dropdown'>
             <input type="text" id="search" className='form-control' placeholder='Search' value={search} onChange={(e)=>setSearch(e.target.value)} autoComplete='off'/>
             <label htmlFor='search'>Search</label>

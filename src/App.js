@@ -10,8 +10,6 @@ function App() {
   return (
     <div className="App">
       <WatchListContextProvider>
-        <AutoComplete />
-        <StockList />
           <Routes>
             <Route path="/" element={<StockOverviewPage />} />
             <Route path="/detail/:symbol" element={<StockDetailPage />} />
