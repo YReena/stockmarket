@@ -27,7 +27,6 @@ export const StockDetailPage = () => {
             limit: 8
           }
         })
-          
         setCharData({
           final: formatData(response.data)
         })
@@ -41,6 +40,6 @@ export const StockDetailPage = () => {
    fetchData()
   }, [symbol])
   return (<>
-    {charData ? <div><StockChart charData={charData} /></div> : <></>}
+    {charData ? <div><StockChart charData={charData} symbol={symbol}/></div> : <></>}
   </>)
 }
