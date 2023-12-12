@@ -3,7 +3,7 @@
   margin: 0px;
 }
 .App{
-  background-color:#e5dfdf;
+  background-color:white;
   height: 100vh;
 }
 .inputbox{
@@ -33,4 +33,14 @@ padding-top: 10rem;
   align-items: center;
   font-weight: bolder;
   color : black
+}
+.img{
+  margin-top: 10rem;
+  margin-left: 15rem;
+  height: 200px;
+  width: 200px;
+}
+.logo{
+  width: 100vw;
+  align-self: center;
 }
